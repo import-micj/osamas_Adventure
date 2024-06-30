@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.eventHandlers.LoginRegistrationHandlers.registrationHandler">
+   <children>
+      <Button layoutX="59.0" layoutY="101.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="Warrior">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="89.0" layoutY="70.0" prefHeight="25.0" prefWidth="89.0" text="Select Class" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="59.0" layoutY="149.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="Ranger">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="59.0" layoutY="198.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="Mage">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="59.0" layoutY="246.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="Priest">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="52.0" layoutY="360.0" text="Description" underline="true" />
+      <Label alignment="TOP_LEFT" layoutX="52.0" layoutY="387.0" prefHeight="73.0" prefWidth="253.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id porta nibh venenatis cras sed felis eget." wrapText="true" />
+      <ProgressBar layoutX="1058.0" layoutY="101.0" prefHeight="17.0" prefWidth="164.0" progress="0.0" />
+      <Label alignment="CENTER" layoutX="1095.0" layoutY="70.0" prefHeight="25.0" prefWidth="89.0" text="Stats" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="1012.0" layoutY="101.0" text="Vitality" />
+      <ProgressBar layoutX="1058.0" layoutY="132.0" prefHeight="17.0" prefWidth="164.0" progress="0.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="1006.0" layoutY="132.0" text="Defense" />
+      <ProgressBar layoutX="1058.0" layoutY="160.0" prefHeight="17.0" prefWidth="164.0" progress="0.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="1003.0" layoutY="160.0" text="Strength" />
+      <ProgressBar layoutX="1058.0" layoutY="190.0" prefHeight="17.0" prefWidth="164.0" progress="0.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="988.0" layoutY="190.0" text="Intelligence" />
+      <ProgressBar layoutX="1058.0" layoutY="218.0" prefHeight="17.0" prefWidth="164.0" progress="0.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="990.0" layoutY="218.0" text="Movement" />
+      <ProgressBar layoutX="1058.0" layoutY="246.0" prefHeight="17.0" prefWidth="164.0" progress="0.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="1019.0" layoutY="246.0" text="Haste" />
+      <Label alignment="CENTER" layoutX="1089.0" layoutY="321.0" prefHeight="25.0" prefWidth="89.0" text="Skills" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="540.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true" />
+      <Button contentDisplay="CENTER" layoutX="566.0" layoutY="490.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="39.0" prefWidth="149.0" text="Select">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="332.0" fitWidth="372.0" layoutX="448.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

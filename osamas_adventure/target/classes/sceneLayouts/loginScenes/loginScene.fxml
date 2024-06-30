@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1080.0" maxWidth="1920.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.eventHandlers.LoginRegistrationHandlers.loginHandler">
+   <children>
+      <Label layoutX="409.0" layoutY="74.0" text="Osama's Adventure">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameClientInput" alignment="CENTER" layoutX="453.0" layoutY="229.0" prefHeight="38.0" prefWidth="380.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="522.0" layoutY="154.0" text="Fly high, Dream High">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="558.0" layoutY="341.0" mnemonicParsing="false" onAction="#LoginButton" prefHeight="38.0" prefWidth="171.0" text="Begin Journey">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordClientInput" alignment="CENTER" layoutX="453.0" layoutY="281.0" prefHeight="39.0" prefWidth="380.0" />
+      <Button layoutX="1128.0" layoutY="673.0" mnemonicParsing="false" onAction="#RegisterButton" prefHeight="25.0" prefWidth="130.0" text="Create Account">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="1143.0" layoutY="649.0" text="New Adventurer?">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="374.0" layoutY="236.0" text="username">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="375.0" layoutY="288.0" text="password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="842.0" layoutY="236.0" mnemonicParsing="false" onAction="#clearUsernameTextField" text="X" />
+      <Button layoutX="842.0" layoutY="288.0" mnemonicParsing="false" onAction="#clearPasswordTextField" text="X" />
+   </children>
+</AnchorPane>
